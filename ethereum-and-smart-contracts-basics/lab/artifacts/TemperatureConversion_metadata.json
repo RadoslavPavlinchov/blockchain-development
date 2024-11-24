@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "temperature",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "fromStr",
+						"type": "string"
+					}
+				],
+				"name": "convertTemperature",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethereum-and-smart-contracts-basics/lab/temperature-conversion.sol": "TemperatureConversion"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethereum-and-smart-contracts-basics/lab/temperature-conversion.sol": {
+			"keccak256": "0x7b1d0bfaa217629a6caabb4e330ea3ea99ea0dc51cf8146e3930d4ee104aad73",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96d807ba1781b1220a79cc947e6fda389557cafd8a9eb458952e70c5701635ad",
+				"dweb:/ipfs/QmUF5QhXH3TQyScE94PpDqZHafkokNfYZbkJZomExAAkaz"
+			]
+		}
+	},
+	"version": 1
+}
